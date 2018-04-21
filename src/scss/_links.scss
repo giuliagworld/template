@@ -1,0 +1,23 @@
+.links {
+  clear: both;
+  position: relative;
+  height: 100vh;
+  background-color: $dark-turquoise;
+  .container-fluid {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    .link {
+      display: inline-block;
+      margin: 20px 0;
+      padding-left: 30px;
+      background-image: url("/aikidgroup/assets/link.svg");
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 20px;
+      font-size: 20px;
+      text-decoration: none;
+      color: $black;
+    }
+  }
+}

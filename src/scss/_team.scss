@@ -1,0 +1,40 @@
+.team {
+  background: linear-gradient($yellow, $white, $yellow);
+  @include media-breakpoint-up(md) {
+    position: relative;
+    min-height: 100vh;
+  }
+  .container-fluid {
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .photo {
+      width: 120px;
+      height: 140px;
+      border-radius: 50%;
+    }
+    .expertise {
+      margin: 0;
+      padding: 20px 0 0 0;
+      .single {
+        list-style-type: none;
+      }
+      .single:last-child {
+        padding-top: 15px;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .languages-min-height {
+      min-height: 44px;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    .languages-min-height {
+      min-height: unset;
+    }
+  }
+}

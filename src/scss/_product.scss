@@ -1,0 +1,10 @@
+.product {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient($white, $dark-turquoise, $white);
+  .container-fluid {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

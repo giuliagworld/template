@@ -1,0 +1,27 @@
+.footer {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient($white, $grey);
+  .container-fluid {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .contact {
+    display: inline-block;
+    margin: 20px 0;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: $black;
+    &.email {
+      background-image: url("/aikidgroup/assets/envelope.svg");
+    }
+    &.phone {
+      background-image: url("/aikidgroup/assets/phone.svg");
+    }
+  }
+}

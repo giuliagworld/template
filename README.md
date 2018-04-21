@@ -1,1 +1,1 @@
-# template
+# Single page React application template
